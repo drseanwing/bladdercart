@@ -1,7 +1,7 @@
 {
-  "name": "universal-tabletop-system",
+  "name": "Bladdercart Tabletop",
   "version": "1.0.0",
-  "description": "Universal Tabletop System",
+  "description": "Bladdercart, using Universal Tabletop System",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
@@ -18,9 +18,9 @@
   ],
   "author": "MetaMorphic Digital",
   "bugs": {
-    "url": "https://github.com/MetaMorphic-Digital/universal-tabletop-system/issues"
+    "url": "https://github.com/drseanwing/bladdercart/issues"
   },
-  "homepage": "https://github.com/MetaMorphic-Digital/universal-tabletop-system#readme",
+  "homepage": "https://github.com/drseanwing/bladdercart",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
     "eslint": "^8.57.0",
