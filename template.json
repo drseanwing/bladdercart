@@ -1,0 +1,79 @@
+{
+  "Actor": {
+    "types": {
+      "character": {
+        "name": "",
+        "type": "character",
+        "system": {
+          "attributes": {
+            "hp": { "value": 10, "max": 10 },
+            "hope": { "value": 3, "max": 3 },
+            "stress": 0,
+            "scars": [],
+            "evasion": 10
+          },
+          "proficiency": 1,
+          "experience": 0,
+          "class": null,
+          "subclass": null,
+          "species": null,
+          "heritage": null,
+          "background": null,
+          "armorSlots": [
+            { "location": "head", "damaged": false },
+            { "location": "chest", "damaged": false },
+            { "location": "legs", "damaged": false }
+          ],
+          "statusEffects": []
+        }
+      },
+      "adversary": {
+        "name": "",
+        "type": "adversary",
+        "system": {
+          "hp": { "value": 10, "max": 10 },
+          "ac": 12,
+          "traits": [],
+          "attacks": []
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": {
+      "weapon": {
+        "name": "",
+        "type": "weapon",
+        "system": {
+          "damageDice": "d6",
+          "mod": 0,
+          "proficient": true
+        }
+      },
+      "armor": {
+        "name": "",
+        "type": "armor",
+        "system": {
+          "ac": 1,
+          "slot": "chest",
+          "penalty": 0,
+          "damaged": false
+        }
+      },
+      "spell": {
+        "name": "",
+        "type": "spell",
+        "system": {
+          "level": 1,
+          "castingTime": "1 action",
+          "range": "60 ft",
+          "duration": "Instant",
+          "school": "Evocation",
+          "saveType": null,
+          "attack": true,
+          "damage": "1d8"
+        }
+      }
+    }
+  }
+}
