@@ -1,21 +1,21 @@
 {
-  "id": "universal-tabletop-system",
-  "title": "Universal Tabletop System",
-  "description": "The Universal Tabletop System for FoundryVTT, by Metamorphic Digital.",
+  "id": "bladdercart-tabletop",
+  "title": "Bladdercart Tabletop System",
+  "description": "Bladdercart, built on UTS for FoundryVTT, by Metamorphic Digital.",
   "authors": [
     {
-      "name": "Joseph M.",
+      "name": "UTS by Joseph M.",
       "discord": "chaosos"
     },
     {
-      "name": "Zhell",
+      "name": "UTS by Zhell",
       "discord": "zhell9201"
     }
   ],
-  "url": "https://github.com/MetaMorphic-Digital/universal-tabletop-system",
+  "url": "https://github.com/drseanwing/bladdercart/",
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "bugs": "https://github.com/MetaMorphic-Digital/universal-tabletop-system/issues",
+  "bugs": "https://github.com/drseanwing/bladdercart/issues",
   "changelog": "CHANGELOG.md",
   "media": [
     {
@@ -36,32 +36,38 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
-    },
-    {
-      "lang": "de",
-      "name": "Deutsch (German)",
-      "path": "lang/de.json"
     }
   ],
-  "packs": [],
+  "packs": [    {
+      "name": "spells",
+      "label": "Daggerheart Spells",
+      "system": "daggerheart",
+      "path": "packs/spells.db",
+      "type": "Item"
+    },
+    {
+      "name": "equipment",
+      "label": "Daggerheart Equipment",
+      "system": "daggerheart",
+      "path": "packs/equipment.db",
+      "type": "Item"
+    }],
   "packFolders": [],
   "socket": true,
-  "manifest": "https://github.com/MetaMorphic-Digital/universal-tabletop-system/releases/latest/download/system.json",
+  "manifest": "https://github.com/drseanwing/bladdercart/system.json",
   "download": "AUTOMATIC",
   "background": "",
   "initiative": "1d20",
   "grid": {
     "type": 1,
-    "distance": 1,
-    "units": "in",
+    "distance": 5,
+    "units": "ft",
     "diagonals": 0
   },
-  "primaryTokenAttribute": "value",
-  "secondaryTokenAttribute": "",
+  "primaryTokenAttribute": "attributes.hp",
+  "secondaryTokenAttribute": "attributes.hope",
   "documentTypes": {
-    "Actor": {
-      "chess": {}
-    },
+    "Actor": {},
     "Item": {},
     "Card": {},
     "Cards": {},
