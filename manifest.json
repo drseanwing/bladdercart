@@ -27,7 +27,7 @@
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "11",
   "url": "https://github.com/drseanwing/bladdercart",
-  "manifest": "https://raw.githubusercontent.com/drseanwing/bladdercart/main/manifest.json",
+  "manifest": "https://github.com/drseanwing/bladdercart/blob/615f9d8b4240e56bda4bc8fc1827044a6fe81176/manifest.json",
   "download": "https://github.com/drseanwing/bladdercart/archive/refs/tags/Test.zip",
   "license": "MIT"
 }
